@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery Tracker</title>
+  </head>
+  <body>
+    <h1>Grocery Tracker</h1>
+    <label for="storeReceipt1">Store Receipt 1:</label>
+   <input
+      type="text"
+      id="memo1"
+      placeholder="Enter any notes or memos about the receipt"
+    />
+    <input
+      type="number"
+      id="storeReceipt1"
+      placeholder="Enter the total amount"
+    />
+    <br /><br />
+    <label for="storeReceipt2">Store Receipt 2:</label>
+   <input
+      type="text"
+      id="memo2"
+      placeholder="Enter any notes or memos about the receipt"
+    />
+    <input
+      type="number"
+      id="storeReceipt2"
+      placeholder="Enter the total amount"
+    />
+    <br /><br /><label for="storeReceipt3">Store Receipt 3:</label>
+<input
+      type="text"
+      id="memo3"
+      placeholder="Enter any notes or memos about the receipt"
+      />
+    <input
+      type="number"
+      id="storeReceipt3"
+      placeholder="Enter the total amount"
+    />
+    <br /><br /><button type="button" onclick="calculateTotalAmount()">
+      Calculate Total Amount
+    </button>
+
+    <p id="totalAmount"></p>
+
+    <script src="groceryTracker.js"></script>
+  </body>
+</html>
